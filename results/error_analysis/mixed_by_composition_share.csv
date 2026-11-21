@@ -1,0 +1,6 @@
+composition,mixed,other,same
+A no clear other-language word,0.52,0.14,0.34
+B no clear context-language word,0.27,0.61,0.12
+C one other-language word,0.68,0.1,0.22
+D one context-language word,0.63,0.32,0.05
+E balanced (2+ of each),0.88,0.05,0.07

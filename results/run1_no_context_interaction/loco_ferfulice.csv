@@ -1,0 +1,8 @@
+model,train,test,macro_f1,accuracy,f1_same,f1_other,f1_mixed,n
+B0_majority,hoff+deuchar+perez,ferfulice<=3;6,0.321,0.929,0.963,0.0,0.0,22649
+B1_length,hoff+deuchar+perez,ferfulice<=3;6,0.237,0.47,0.633,0.0,0.077,22649
+B2_context,hoff+deuchar+perez,ferfulice<=3;6,0.23,0.494,0.662,0.0,0.029,22649
+M1_lexical,hoff+deuchar+perez,ferfulice<=3;6,0.354,0.629,0.766,0.179,0.117,22649
+M2a_grammatical,hoff+deuchar+perez,ferfulice<=3;6,0.276,0.472,0.631,0.093,0.105,22649
+M2b_pos_sequence,hoff+deuchar+perez,ferfulice<=3;6,0.278,0.476,0.636,0.093,0.106,22649
+M3_lex_plus_gram,hoff+deuchar+perez,ferfulice<=3;6,0.36,0.614,0.752,0.181,0.149,22649

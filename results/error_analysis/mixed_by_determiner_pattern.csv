@@ -1,0 +1,5 @@
+det_pattern,mixed,other,same,All
+English determiner + Spanish word,141,55,75,271
+Spanish determiner + English word,660,36,54,750
+other pattern,961,440,390,1791
+All,1762,531,519,2812

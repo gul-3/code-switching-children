@@ -1,0 +1,15 @@
+# raw corpora and derived datasets (TalkBank data, not redistributed)
+data/
+
+# files with utterance-level transcript text
+results/oof_predictions.csv
+results/run1_no_context_interaction/oof_predictions.csv
+results/error_analysis/examples_*.csv
+
+# local only
+.venv/
+__pycache__/
+*.pdf
+.DS_Store
+docs/team_update.html
+scripts/add_label3_hoff.py

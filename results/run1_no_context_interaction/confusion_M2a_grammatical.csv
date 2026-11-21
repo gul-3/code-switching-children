@@ -1,0 +1,4 @@
+,pred_same,pred_other,pred_mixed
+true_same,49180,40159,16810
+true_other,2412,7711,2396
+true_mixed,225,540,2047

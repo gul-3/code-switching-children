@@ -1,0 +1,9 @@
+corpus,session_language,English determiner + Spanish word,Spanish determiner + English word,other pattern,All
+deuchar,eng,0,11,8,19
+deuchar,spa,3,1,23,27
+ferfulice,eng,20,33,333,386
+ferfulice,spa,1,5,80,86
+hoff,eng,103,160,421,684
+hoff,spa,144,538,911,1593
+perez,spa,0,2,15,17
+All,,271,750,1791,2812

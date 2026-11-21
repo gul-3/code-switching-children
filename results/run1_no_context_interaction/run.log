@@ -1,0 +1,32 @@
+B0_majority        macro-F1 per fold: [0.315, 0.309, 0.309, 0.31, 0.31]
+B1_length          macro-F1 per fold: [0.241, 0.278, 0.27, 0.281, 0.27]
+B2_context         macro-F1 per fold: [0.05, 0.213, 0.243, 0.21, 0.228]
+M1_lexical         macro-F1 per fold: [0.387, 0.42, 0.428, 0.443, 0.427]
+M2a_grammatical    macro-F1 per fold: [0.323, 0.339, 0.364, 0.363, 0.358]
+M2b_pos_sequence   macro-F1 per fold: [0.331, 0.337, 0.348, 0.353, 0.346]
+M3_lex_plus_gram   macro-F1 per fold: [0.398, 0.456, 0.452, 0.477, 0.455]
+
+                  macro_f1        f1_same  ...        accuracy       
+                     mean    std    mean  ...    std     mean    std
+model                                     ...                       
+B0_majority         0.311  0.002   0.932  ...  0.000    0.873  0.013
+B1_length           0.268  0.016   0.706  ...  0.014    0.525  0.033
+B2_context          0.189  0.079   0.467  ...  0.014    0.329  0.160
+M1_lexical          0.421  0.021   0.762  ...  0.051    0.633  0.011
+M2a_grammatical     0.349  0.018   0.622  ...  0.039    0.485  0.014
+M2b_pos_sequence    0.343  0.009   0.615  ...  0.034    0.478  0.015
+M3_lex_plus_gram    0.448  0.030   0.763  ...  0.070    0.639  0.014
+
+[7 rows x 10 columns]
+
+Leave-one-corpus-out (test = FerFuLice <= 3;6)
+               model  macro_f1  f1_same  f1_other  f1_mixed  accuracy
+0       B0_majority     0.321    0.963     0.000     0.000     0.929
+1         B1_length     0.237    0.633     0.000     0.077     0.470
+2        B2_context     0.230    0.662     0.000     0.029     0.494
+3        M1_lexical     0.354    0.766     0.179     0.117     0.629
+4   M2a_grammatical     0.276    0.631     0.093     0.105     0.472
+5  M2b_pos_sequence     0.278    0.636     0.093     0.106     0.476
+6  M3_lex_plus_gram     0.360    0.752     0.181     0.149     0.614
+
+wrote results to results
